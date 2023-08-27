@@ -1,0 +1,39 @@
+h1{
+  font-size: 28px;
+}
+  h2{
+    font-size: 20px;
+  }
+ 
+  h3{
+    font-size: 18px;
+  }
+
+body {
+  margin: 0;
+  background-color: #e4f4fb;
+}
+/* code below helps align and organize text included in article, section, div, and paragraphs*/
+article, section, div, p, section p {
+  text-align: center;
+  margin:auto ;
+  padding:20px ; 
+  background:5%;
+}
+main, div, article{
+  overflow: visible;
+border-bottom: 3px solid;
+  height: auto;
+}
+a:link { color: purple }
+a:visited { color:green}
+a:hoover { color:lightblue}
+a:active { color:blue}
+/*here is pseudo class for styled links */
+ HTML, p{
+   font-family: 'Shadows Into Light', cursive;
+  color: #0c4017;
+  text-align: center;
+  font-size: 15px;
+}
+/* code above includes font family for all text*/
